@@ -1,0 +1,95 @@
+
+
+.navbar{
+    
+    background-color:#4dcce5;
+    padding: 30px;
+}
+
+.jumbotron{
+    
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: white;
+}
+
+
+
+#design{
+    background-color: #e8592e;
+}
+#develop{
+    background-color: #4dcce5;
+}
+#SoMe{
+    background-color: #0a856e;
+}
+#education{
+    background-color: #FFC300;
+}
+#marketing{
+    background-color: #38BEF4;
+}
+#buisness{
+    background-color: #734FFA;
+}
+#networking{
+    background-color: #DFE443;
+}
+#events{
+    background-color: #DAF7A6;
+}
+#jobs{
+    background-color: #FF5733;
+}
+
+.categories-list li{ 
+    width:33.333333%; 
+    max-width: 100% ; 
+    display:inline-block; 
+    float: left; 
+    text-align: center; 
+    overflow: hidden;    
+    position: relative;
+}
+.categories-list{ 
+    padding:0;display: flow-root;
+}
+
+.categories-list li:hover span {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.categories-list li span{
+    -webkit-transition: transform 0.5s ease;
+    -o-transition: transform 0.5s ease;
+    transition: transform 0.5s ease;
+}
+.categories-list li {
+    height: 304px;
+}
+
+
+.categories-list .catagory{
+    position:absolute; 
+    top: 0; 
+    left: 0; 
+    right:0; 
+    bottom:0; 
+    color:#fff;}
+
+.categories-list .catagory span{
+    position:absolute; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    left:0 ; 
+    right:0; 
+    font-size:24px;
+}
+
+.categories-list li:hover .catagory{ 
+    background:rgba(0,0,0,0.17) 
+}
