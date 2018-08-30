@@ -1,0 +1,62 @@
+.maincat{
+	background-color: #5E4C04;
+	color: white;
+}
+.category-tile{
+	position: :relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto 15px;
+	padding-top: 60px;
+	text-align: center;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	background-color:#C50606 ;
+	border-radius: 10px;
+	color: white;
+	font-size: 
+	webkit-animation-name: maincat;
+    -webkit-animation-duration: 4s; 
+    animation-name: maincat;
+    animation-duration: 4s;
+}
+@-webkit-keyframes maincat {
+    0% {background-color: #C50606;}
+    50% {background-color: #E8C60F;}
+    100% {background-color: green;}
+@keyframes maincat {
+    0% {background-color: #C50606;}
+    50% {background-color: #E8C60F;}
+    100% {background-color: green;}
+
+}
+
+a{
+	text-decoration: none;
+}
+#title{
+	text-align: center;
+	margin:50px;
+}
+
+.subcat-tile{
+
+	border: 2px  #3F0C1F;
+	overflow: hidden;
+	margin: 0 auto 15px;
+	padding: 60px;
+	text-align: center;
+	font-size: 1.2em;
+	text-transform: uppercase;	
+	color: #C50606;
+}
+@import "compass/css3";
+
+html {
+  background-image:linear-gradient(#69f, #fff);
+  height:100%;
+  overflow:hidden;
+}
+
