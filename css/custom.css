@@ -18,30 +18,39 @@
 #design{
     background-color: #e8592e;
 }
+
 #develop{
     background-color: #4dcce5;
 }
+
 #SoMe{
     background-color: #0a856e;
 }
+
 #education{
     background-color: #FFC300;
 }
+
 #marketing{
     background-color: #38BEF4;
 }
+
 #buisness{
     background-color: #734FFA;
 }
+
 #networking{
     background-color: #DFE443;
 }
+
 #events{
     background-color: #DAF7A6;
 }
+
 #jobs{
     background-color: #FF5733;
 }
+
 
 .categories-list li{ 
     width:33.333333%; 
@@ -53,7 +62,9 @@
     position: relative;
 }
 .categories-list{ 
-    padding:0;display: flow-root;
+    padding:0;
+    display: 
+    flow-root;
 }
 
 .categories-list li:hover span {
@@ -92,4 +103,14 @@
 
 .categories-list li:hover .catagory{ 
     background:rgba(0,0,0,0.17) 
+}
+
+.media img {
+    
+    width: 150px;
+}
+.media{
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #e8592e;
 }
