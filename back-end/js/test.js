@@ -28,11 +28,11 @@ function Fill_values(int_Value)
 				}
 			}
 			
-			document.getElementsByClassName("select_product")[0].innerHTML = '<select>' + innerhtml_Select_Resource + '</select>';
-			document.getElementsByClassName("product_id")[0].innerHTML     = json_Import['b'+index_Table];
-			document.getElementsByClassName("name")[0].innerHTML           = json_Import['c'+index_Table];
-			document.getElementsByClassName("r_description")[0].innerHTML    = json_Import['d'+index_Table];
-			document.getElementsByClassName("image")[0].src                = json_Import['e'+index_Table];
+			document.getElementsByClassName("resource_name")[0].innerHTML = '<select>' + innerhtml_Select_Resource + '</select>';
+			document.getElementsByClassName("resource_category")[0].innerHTML     = json_Import['b'+index_Table];
+			document.getElementsByClassName("resource_link")[0].innerHTML           = json_Import['c'+index_Table];
+			document.getElementsByClassName("resource_description")[0].innerHTML    = json_Import['d'+index_Table];
+			document.getElementsByClassName("image_link")[0].src                = json_Import['e'+index_Table];
 		}
    };
    
